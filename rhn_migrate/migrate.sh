@@ -168,6 +168,10 @@ if [[ "$SPACEWALK" != "" ]] ; then
     yum erase spacewalk-client-repo spacewalk-backend-libs
   fi
 fi
+if [[ $? -ne 0 ]] ; then 
+  echo -e "Yum encountered a problem. Check network connectivity or repo configuration and try again." >&2
+  exit 1
+fi
 
 # check if package has been downloaded already
 if [[ ! -e "$WORKING_DIR/$PACKAGE_NAME.tar.gz" ]] ; then
@@ -181,6 +185,10 @@ if [[ "$AUTO" = "T" ]] ; then
   eval "yum --nogpgcheck -y install $PACKAGES"
 else
   eval "yum --nogpgcheck install $PACKAGES"
+fi
+if [[ $? -ne 0 ]] ; then 
+  echo -e "Yum encountered a problem. Check network connectivity or repo configuration and try again." >&2
+  exit 1
 fi
 
 if [[ "$AUTO" = "T" ]] ; then
@@ -385,6 +393,10 @@ if [[ "$AUTO" = "T" ]] ; then
   yum -y install katello-agent puppet
 else
   yum install katello-agent puppet
+fi
+if [[ $? -ne 0 ]] ; then 
+  echo -e "Yum encountered a problem. Check network connectivity or repo configuration and try again." >&2
+  exit 1
 fi
 
 if [[ "$AUTO" = "T" ]] ; then 
