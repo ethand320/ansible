@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/repos/ansible/!svn/ver/13/dir_colors_package
+END
+DIR_COLORS
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ansible/!svn/ver/1/dir_colors_package/DIR_COLORS
+END
+.dircolors
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ansible/!svn/ver/1/dir_colors_package/.dircolors
+END
+dir.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ansible/!svn/ver/13/dir_colors_package/dir.yml
+END

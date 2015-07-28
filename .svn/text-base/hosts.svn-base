@@ -1,0 +1,461 @@
+# This is the OSS ansible 'hosts' file.
+# changing stuff here
+
+# It should live in /etc/ansible/hosts 
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements
+#   - You can enter hostnames or ip addresses
+#   - A hostname/ip can be a member of multiple groups
+#
+# If you have multiple hosts following a pattern you can specify
+# them like this:
+#www[001:006].example.com
+#
+# Here's another example of host ranges, this time there are no
+# leading 0s:
+#db-[99:101]-node.example.com
+
+
+####### Ungrouped All Hosts ###################
+# Hosts are ungrouped so they can individual referenced in ad-hoc commands
+ampprd02.is.depaul.edu
+amptst02.is.depaul.edu
+appscanprd01.sg.depaul.edu
+bbtsdbprd02.dpu.depaul.edu
+bbtsdbprd02b.dpu.depaul.edu
+bbtsdbtst02.dpu.depaul.edu
+casdev03.is.depaul.edu
+casdev04.is.depaul.edu
+caspertst01.is.depaul.edu
+casprd03.is.depaul.edu
+casprd04.is.depaul.edu
+ccapptst01.is.depaul.edu
+cguidewebprd01.is.depaul.edu
+cleanaddressappprd01.is.depaul.edu
+cleanaddresswebprd01.is.depaul.edu
+collage.is.depaul.edu
+condor.depaul.edu
+crisis4.is.depaul.edu
+crisis5.is.depaul.edu
+crmmailcast03.is.depaul.edu
+crmmailcast04.is.depaul.edu
+cupprd01.is.depaul.edu
+dcsmtpprd01.is.depaul.edu
+dcsmtpprd02.is.depaul.edu
+drmstst01.is.depaul.edu
+dwdbdev11a.is.depaul.edu
+dwdbprd11a.is.depaul.edu
+dwdbprd11b.is.depaul.edu
+ekmprd01.is.depaul.edu
+ekmprd02.is.depaul.edu
+fecwebdev01.is.depaul.edu
+fecwebprd01.is.depaul.edu
+filermgmt01.is.depaul.edu
+ftpxfer01.is.depaul.edu
+gitprd01.is.depaul.edu
+ihsdbdev11a.is.depaul.edu
+ihsdbprd11a.is.depaul.edu
+jabber01.is.depaul.edu
+jssnsusprd01.is.depaul.edu
+libguideprd01.is.depaul.edu
+libguidetst01.is.depaul.edu
+libxfer01.is.depaul.edu
+mailmanprd01.is.depaul.edu
+mailreceiver01.is.depaul.edu
+massmailprd01.is.depaul.edu
+massmailprd02.is.depaul.edu
+massmailtst01.is.depaul.edu
+mimsywebprd01.is.depaul.edu
+msgxfer01.is.depaul.edu
+msgxfer02.is.depaul.edu
+msgxferprd01.is.depaul.edu
+mtaprd01.dpu.depaul.edu
+mtaprd02.dpu.depaul.edu
+mysqldbprd01.is.depaul.edu
+mysqldbprd02.is.depaul.edu
+mysqldbtst02.is.depaul.edu
+nmcprd01.is.depaul.edu
+nmcprd02.is.depaul.edu
+ntapmonitorprd01.is.depaul.edu
+nxwebdev01.is.depaul.edu
+nxwebdev02.is.depaul.edu
+oemappprd01.is.depaul.edu
+oemappprd02a.is.depaul.edu
+oemappprd02b.is.depaul.edu
+oemdbprd01.is.depaul.edu
+oemdbprd02a.is.depaul.edu
+oemdbprd02b.is.depaul.edu
+oradbprd11a.is.depaul.edu
+oradbprd11b.is.depaul.edu
+oradbprd12a.is.depaul.edu
+oradbprd12b.is.depaul.edu
+oradbprd13a.is.depaul.edu
+oradbprd13b.is.depaul.edu
+oradbprd14a.is.depaul.edu
+oradbprd14b.is.depaul.edu
+oradbprd15a.is.depaul.edu
+oradbtst11a.is.depaul.edu
+oradbtst11b.is.depaul.edu
+oradbtst12a.is.depaul.edu
+oradbtst12b.is.depaul.edu
+oradbtst13a.is.depaul.edu
+oradbtst14a.is.depaul.edu
+oradbtst15a.is.depaul.edu
+oradbtst16a.is.depaul.edu
+ossiwprd01.is.depaul.edu
+ossutilprd01.is.depaul.edu
+pandora.depaul.edu
+physicsmgmt.is.depaul.edu
+pinnwebprd01.is.depaul.edu
+pinnwebtst01.is.depaul.edu
+psdbdev11a.is.depaul.edu
+psdbdev11b.is.depaul.edu
+psdbdev12a.is.depaul.edu
+psdbdev14a.is.depaul.edu
+psdbdev15a.is.depaul.edu
+psdbdev15b.is.depaul.edu
+psdbdev16a.is.depaul.edu
+psdbprd11a.is.depaul.edu
+psdbprd11b.is.depaul.edu
+psdbprd12a.is.depaul.edu
+psdbprd12b.is.depaul.edu
+psdbprd13a.is.depaul.edu
+psdbprd13b.is.depaul.edu
+psdbprd14a.is.depaul.edu
+psdbprd15a.is.depaul.edu
+psdbprd16a.is.depaul.edu
+psdbqua11a.is.depaul.edu
+psdbqua11b.is.depaul.edu
+psdbqua12a.is.depaul.edu
+psdbqua12b.is.depaul.edu
+psdbqua13a.is.depaul.edu
+psdbqua13b.is.depaul.edu
+psdbqua14a.is.depaul.edu
+psdbqua15a.is.depaul.edu
+psdbqua16a.is.depaul.edu
+psdbtech2a.is.depaul.edu
+psdbtst11a.is.depaul.edu
+psdbtst11b.is.depaul.edu
+psdbtst12a.is.depaul.edu
+psdbtst12b.is.depaul.edu
+psdbtst13a.is.depaul.edu
+psdbtst13b.is.depaul.edu
+psdbtst14a.is.depaul.edu
+psdbtst16a.is.depaul.edu
+radiowebprd01.depaul.edu
+redcapdbprd02.is.depaul.edu
+redcapwebprd02.is.depaul.edu
+rhnproxy.is.depaul.edu
+rhnproxyprd01.is.depaul.edu
+rstudioprd01.is.depaul.edu
+rtprd01a.is.depaul.edu
+rtprd01b.is.depaul.edu
+saturn.depaul.edu
+sguilcstprd01.is.depaul.edu
+smediaprd01.is.depaul.edu
+smtpprd03.is.depaul.edu
+smtpprd04.is.depaul.edu
+spacewalkprd01.is.depaul.edu
+splunkprd03.is.depaul.edu
+splunkprd06.is.depaul.edu
+splunksrcprd01.is.depaul.edu
+splunksrcprd02.is.depaul.edu
+splunksrcprd03.is.depaul.edu
+splunktst01.is.depaul.edu
+splunktst02.is.depaul.edu
+splunktst03.is.depaul.edu
+students.depaul.edu
+svaprd01.is.depaul.edu
+sysdbprd01.is.depaul.edu
+sysdbprd03.is.depaul.edu
+sysdbprd05.is.depaul.edu
+sysdbprd06.is.depaul.edu
+sysdbtst05.is.depaul.edu
+sysdbtst06.is.depaul.edu
+syslog01.is.depaul.edu
+syslog02.is.depaul.edu
+syssvnprd01.is.depaul.edu
+testlinkprd01.is.depaul.edu
+triumph2.is.depaul.edu
+urchinprd01.is.depaul.edu
+webdirectprd01.is.depaul.edu
+xmppprd01.is.depaul.edu
+
+
+####################################
+### Begin OSS server groups #####
+#####################################
+######################################
+#####################################
+
+[backup_servers]
+drms02.is.depaul.edu
+nmcprd01.is.depaul.edu
+nmcprd02.is.depaul.edu
+
+
+[cas_dev]
+casdev03.is.depaul.edu
+casdev04.is.depaul.edu
+
+
+[cas_prd]
+casprd04.is.depaul.edu
+casprd03.is.depaul.edu
+
+
+[crisis_servers]
+crisis5.is.depaul.edu
+crisis4.is.depaul.edu
+
+
+[dbservers_oss]
+sysdbprd05.is.depaul.edu
+sysdbprd06.is.depaul.edu
+
+
+[dbservers_test_oss]
+sysdbtst05.is.depaul.edu
+sysdbtst06.is.depaul.edu
+
+
+[jabber_servers]
+jabber01.is.depaul.edu
+xmppprd01.is.depaul.edu
+
+
+[oracle_db_test]
+oradbtst11a.is.depaul.edu
+oradbtst12a.is.depaul.edu
+oradbtst12b.is.depaul.edu
+oradbtst13a.is.depaul.edu
+oradbtst14a.is.depaul.edu
+oradbtst15a.is.depaul.edu
+psdbdev11a.is.depaul.edu
+psdbdev12a.is.depaul.edu
+psdbdev13a.is.depaul.edu
+psdbdev14a.is.depaul.edu
+psdbdev15a.is.depaul.edu
+psdbdev15b.is.depaul.edu
+psdbdev16a.is.depaul.edu
+psdbqua12a.is.depaul.edu
+psdbqua12b.is.depaul.edu
+psdbqua13a.is.depaul.edu
+psdbqua13b.is.depaul.edu
+psdbqua14a.is.depaul.edu
+psdbqua15a.is.depaul.edu
+psdbqua16a.is.depaul.edu
+psdbtech1a.is.depaul.edu
+psdbtech2a.is.depaul.edu
+psdbtst11a.is.depaul.edu
+psdbtst12a.is.depaul.edu
+psdbtst13a.is.depaul.edu
+psdbtst14a.is.depaul.edu
+psdbtst16a.is.depaul.edu
+
+
+[postfix_mta_all]
+condor.depaul.edu
+crmmailcast03.is.depaul.edu
+crmmailcast04.is.depaul.edu
+mailmanprd01.is.depaul.edu
+massmailprd01.is.depaul.edu
+massmailprd02.is.depaul.edu
+mtaprd01.is.depaul.edu
+mtaprd02.is.depaul.edu
+smtpprd03.is.depaul.edu
+smtpprd04.is.depaul.edu
+
+
+[postfix_smtpprd]
+smtpprd03.is.depaul.edu
+smtpprd04.is.depaul.edu
+
+
+[proxy]
+proxyprd03.is.depaul.edu
+proxyprd04.is.depaul.edu
+
+
+[splunk]
+splunkprd03.is.depaul.edu
+splunkprd06.is.depaul.edu
+splunksrcprd01.is.depaul.edu
+splunksrcprd02.is.depaul.edu
+splunksrcprd03.is.depaul.edu
+splunktst01.is.depaul.edu
+splunktst02.is.depaul.edu
+splunktst03.is.depaul.edu
+
+
+[webdirect]
+webdirectprd01.is.depaul.edu
+webdirectprd02.is.depaul.edu
+
+
+# [all_hosts]
+# ampprd02.is.depaul.edu
+# amptst02.is.depaul.edu
+# appscanprd01.sg.depaul.edu
+# bbtsdbprd02.dpu.depaul.edu
+# bbtsdbprd02b.dpu.depaul.edu
+# bbtsdbtst02.dpu.depaul.edu
+# casdev03.is.depaul.edu
+# casdev04.is.depaul.edu
+# caspertst01.is.depaul.edu
+# casprd03.is.depaul.edu
+# casprd04.is.depaul.edu
+# ccapptst01.is.depaul.edu
+# cguidewebprd01.is.depaul.edu
+# cleanaddressappprd01.is.depaul.edu
+# cleanaddresswebprd01.is.depaul.edu
+# collage.is.depaul.edu
+# condor.depaul.edu
+# crisis4.is.depaul.edu
+# crisis5.is.depaul.edu
+# crmmailcast03.is.depaul.edu
+# crmmailcast04.is.depaul.edu
+# cupprd01.is.depaul.edu
+# dcsmtpprd01.is.depaul.edu
+# dcsmtpprd02.is.depaul.edu
+# drmstst01.is.depaul.edu
+# dwdbdev11a.is.depaul.edu
+# dwdbprd11a.is.depaul.edu
+# dwdbprd11b.is.depaul.edu
+# ekmprd01.is.depaul.edu
+# ekmprd02.is.depaul.edu
+# fecwebdev01.is.depaul.edu
+# fecwebprd01.is.depaul.edu
+# filermgmt01.is.depaul.edu
+# ftpxfer01.is.depaul.edu
+# gitprd01.is.depaul.edu
+# ihsdbdev11a.is.depaul.edu
+# ihsdbprd11a.is.depaul.edu
+# jabber01.is.depaul.edu
+# jssnsusprd01.is.depaul.edu
+# libguideprd01.is.depaul.edu
+# libguidetst01.is.depaul.edu
+# libxfer01.is.depaul.edu
+# mailmanprd01.is.depaul.edu
+# mailreceiver01.is.depaul.edu
+# massmailprd01.is.depaul.edu
+# massmailprd02.is.depaul.edu
+# massmailtst01.is.depaul.edu
+# mimsywebprd01.is.depaul.edu
+# msgxfer01.is.depaul.edu
+# msgxfer02.is.depaul.edu
+# msgxferprd01.is.depaul.edu
+# mtaprd01.dpu.depaul.edu
+# mtaprd02.dpu.depaul.edu
+# mysqldbprd01.is.depaul.edu
+# mysqldbprd02.is.depaul.edu
+# mysqldbtst02.is.depaul.edu
+# nmcprd01.is.depaul.edu
+# nmcprd02.is.depaul.edu
+# ntapmonitorprd01.is.depaul.edu
+# nxwebdev01.is.depaul.edu
+# nxwebdev02.is.depaul.edu
+# oemappprd01.is.depaul.edu
+# oemappprd02a.is.depaul.edu
+# oemappprd02b.is.depaul.edu
+# oemdbprd01.is.depaul.edu
+# oemdbprd02a.is.depaul.edu
+# oemdbprd02b.is.depaul.edu
+# oradbprd11a.is.depaul.edu
+# oradbprd11b.is.depaul.edu
+# oradbprd12a.is.depaul.edu
+# oradbprd12b.is.depaul.edu
+# oradbprd13a.is.depaul.edu
+# oradbprd13b.is.depaul.edu
+# oradbprd14a.is.depaul.edu
+# oradbprd14b.is.depaul.edu
+# oradbprd15a.is.depaul.edu
+# oradbtst11a.is.depaul.edu
+# oradbtst11b.is.depaul.edu
+# oradbtst12a.is.depaul.edu
+# oradbtst12b.is.depaul.edu
+# oradbtst13a.is.depaul.edu
+# oradbtst14a.is.depaul.edu
+# oradbtst15a.is.depaul.edu
+# oradbtst16a.is.depaul.edu
+# ossiwprd01.is.depaul.edu
+# ossutilprd01.is.depaul.edu
+# pandora.depaul.edu
+# physicsmgmt.is.depaul.edu
+# pinnwebprd01.is.depaul.edu
+# pinnwebtst01.is.depaul.edu
+# psdbdev11a.is.depaul.edu
+# psdbdev11b.is.depaul.edu
+# psdbdev12a.is.depaul.edu
+# psdbdev14a.is.depaul.edu
+# psdbdev15a.is.depaul.edu
+# psdbdev15b.is.depaul.edu
+# psdbdev16a.is.depaul.edu
+# psdbprd11a.is.depaul.edu
+# psdbprd11b.is.depaul.edu
+# psdbprd12a.is.depaul.edu
+# psdbprd12b.is.depaul.edu
+# psdbprd13a.is.depaul.edu
+# psdbprd13b.is.depaul.edu
+# psdbprd14a.is.depaul.edu
+# psdbprd15a.is.depaul.edu
+# psdbprd16a.is.depaul.edu
+# psdbqua11a.is.depaul.edu
+# psdbqua11b.is.depaul.edu
+# psdbqua12a.is.depaul.edu
+# psdbqua12b.is.depaul.edu
+# psdbqua13a.is.depaul.edu
+# psdbqua13b.is.depaul.edu
+# psdbqua14a.is.depaul.edu
+# psdbqua15a.is.depaul.edu
+# psdbqua16a.is.depaul.edu
+# psdbtech2a.is.depaul.edu
+# psdbtst11a.is.depaul.edu
+# psdbtst11b.is.depaul.edu
+# psdbtst12a.is.depaul.edu
+# psdbtst12b.is.depaul.edu
+# psdbtst13a.is.depaul.edu
+# psdbtst13b.is.depaul.edu
+# psdbtst14a.is.depaul.edu
+# psdbtst16a.is.depaul.edu
+# radiowebprd01.depaul.edu
+# redcapdbprd02.is.depaul.edu
+# redcapwebprd02.is.depaul.edu
+# rhnproxy.is.depaul.edu
+# rhnproxyprd01.is.depaul.edu
+# rstudioprd01.is.depaul.edu
+# rtprd01a.is.depaul.edu
+# rtprd01b.is.depaul.edu
+# saturn.depaul.edu
+# sguilcstprd01.is.depaul.edu
+# smediaprd01.is.depaul.edu
+# smtpprd03.is.depaul.edu
+# smtpprd04.is.depaul.edu
+# spacewalkprd01.is.depaul.edu
+# splunkprd03.is.depaul.edu
+# splunkprd06.is.depaul.edu
+# splunksrcprd01.is.depaul.edu
+# splunksrcprd02.is.depaul.edu
+# splunksrcprd03.is.depaul.edu
+# splunktst01.is.depaul.edu
+# splunktst02.is.depaul.edu
+# splunktst03.is.depaul.edu
+# students.depaul.edu
+# svaprd01.is.depaul.edu
+# sysdbprd01.is.depaul.edu
+# sysdbprd03.is.depaul.edu
+# sysdbprd05.is.depaul.edu
+# sysdbprd06.is.depaul.edu
+# sysdbtst05.is.depaul.edu
+# sysdbtst06.is.depaul.edu
+# syslog01.is.depaul.edu
+# syslog02.is.depaul.edu
+# syssvnprd01.is.depaul.edu
+# testlinkprd01.is.depaul.edu
+# triumph2.is.depaul.edu
+# urchinprd01.is.depaul.edu
+# webdirectprd01.is.depaul.edu
+# webdirectprd01.is.depaul.edu
+# xmppprd01.is.depaul.edu

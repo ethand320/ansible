@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/ansible/!svn/ver/11/likewise_package
+END
+likewise_pbook.yml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ansible/!svn/ver/11/likewise_package/likewise_pbook.yml
+END
+pbis-open-8.2.2.2993.linux.x86_64.rpm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ansible/!svn/ver/1/likewise_package/pbis-open-8.2.2.2993.linux.x86_64.rpm.sh
+END
+likewise_install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ansible/!svn/ver/1/likewise_package/likewise_install.sh
+END

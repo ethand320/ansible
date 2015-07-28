@@ -1,0 +1,154 @@
+# This is the OSS ansible 'hosts' file.
+# changing stuff here
+
+# It should live in /etc/ansible/hosts 
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements
+#   - You can enter hostnames or ip addresses
+#   - A hostname/ip can be a member of multiple groups
+
+
+
+####### Ungrouped All Hosts ###################
+# Hosts are ungrouped so they can individual referenced in ad-hoc commands
+crmmailcast04.is.depaul.edu
+bbtsdbprd02b.is.depaul.edu
+
+
+
+
+
+
+
+####################################
+### Begin OSS server groups #####
+#####################################
+######################################
+#####################################
+
+[postfix_mta_all]
+crmmailcast03.is.depaul.edu
+crmmailcast04.is.depaul.edu
+smtpprd03.is.depaul.edu
+smtpprd04.is.depaul.edu
+mtaprd01.is.depaul.edu
+mtaprd02.is.depaul.edu
+massmailprd02.is.depaul.edu
+condor.depaul.edu
+massmailprd01.is.depaul.edu
+mailmanprd01.is.depaul.edu
+
+
+
+
+[webdirect]
+webdirectprd01.is.depaul.edu
+webdirectprd02.is.depaul.edu
+
+
+[cas_dev]
+casdev03.is.depaul.edu
+casdev04.is.depaul.edu
+[cas_prd]
+casprd04.is.depaul.edu
+casprd03.is.depaul.edu
+
+
+[crisis_servers]
+crisi5.is.depaul.edu
+crisis4.is.depaul.edu
+
+
+[proxy]
+proxyprd03.is.depaul.edu
+proxyprd04.is.depaul.edu
+
+
+[dbservers_oss]
+sysdbprd05.is.depaul.edu
+sysdbprd06.is.depaul.edu
+
+[dbservers_test_oss]
+sysdbtst06.is.depaul.edu
+sysdbtst05.is.depaul.edu
+
+[jabber_servers]
+jabber01.is.depaul.edu
+xmppprd01.is.depaul.edu
+
+
+
+[splunk]
+splunksrcprd01.is.depaul.edu
+splunksrcprd02.is.depaul.edu
+splunktst01.is.depaul.edu
+splunktst02.is.depaul.edu
+splunktst03.is.depaul.edu
+
+
+[oracle_db_test]
+oradbtst11a.is.depaul.edu
+oradbtst12a.is.depaul.edu
+oradbtst12b.is.depaul.edu
+oradbtst13a.is.depaul.edu
+oradbtst14a.is.depaul.edu
+oradbtst15a.is.depaul.edu
+psdbdev11a.is.depaul.edu
+psdbdev12a.is.depaul.edu
+psdbdev13a.is.depaul.edu
+psdbdev14a.is.depaul.edu
+psdbdev15a.is.depaul.edu
+psdbdev15b.is.depaul.edu
+psdbdev16a.is.depaul.edu
+psdbqua12a.is.depaul.edu
+psdbqua12b.is.depaul.edu
+psdbqua13a.is.depaul.edu
+psdbqua13b.is.depaul.edu
+psdbqua14a.is.depaul.edu
+psdbqua15a.is.depaul.edu
+psdbqua16a.is.depaul.edu
+psdbtech1a.is.depaul.edu
+psdbtech2a.is.depaul.edu
+psdbtst11a.is.depaul.edu
+psdbtst12a.is.depaul.edu
+psdbtst13a.is.depaul.edu
+psdbtst14a.is.depaul.edu
+psdbtst16a.is.depaul.edu
+
+
+
+
+
+
+
+
+
+[all_hosts]
+amptst02.is.depaul.edu
+#bbtsdbtst02.is.depaul.edu
+casdev03.is.depaul.edu
+casdev04.is.depaul.edu
+caspertst01.is.depaul.edu
+drmstst01.is.depaul.edu
+dwdbdev11a.is.depaul.edu
+fecwebdev01.is.depaul.edu
+libguidetst01.is.depaul.edu
+mysqldbtst02.is.depaul.edu
+
+
+
+
+
+# If you have multiple hosts following a pattern you can specify
+# them like this:
+
+#www[001:006].example.com
+
+# Here's another example of host ranges, this time there are no
+# leading 0s:
+
+#db-[99:101]-node.example.com
+
+

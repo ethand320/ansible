@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/repos/ansible/!svn/ver/20/rhn_migrate
+END
+migrate.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/ansible/!svn/ver/20/rhn_migrate/migrate.sh
+END

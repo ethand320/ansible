@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/repos/ansible/!svn/ver/21
+END
+hosts
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/repos/ansible/!svn/ver/21/hosts
+END
+authorized_keys
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/ansible/!svn/ver/12/authorized_keys
+END

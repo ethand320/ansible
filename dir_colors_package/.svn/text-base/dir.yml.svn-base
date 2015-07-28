@@ -1,0 +1,5 @@
+---
+- hosts: webservers
+  tasks:
+    - name: test name yo
+      copy: src=/opt/deployment/ansible/dir_colors_package/DIR_COLORS dest=/root/.dircolors

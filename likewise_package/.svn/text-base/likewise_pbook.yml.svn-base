@@ -1,0 +1,6 @@
+---
+- hosts: '{{ target }}'
+  tasks:
+    - name: copy script
+      copy: src=/opt/deployment/ansible/likewise_package/ dest=/opt directory_mode=yes
+

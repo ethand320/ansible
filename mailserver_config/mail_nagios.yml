@@ -1,0 +1,9 @@
+---
+- hosts: postfix_mta_all
+  tasks:
+    - name: copy config
+      copy: src=nrpe.cfg dest=/etc/nagios/nrpe.cfg
+
+    - name: restart nagios
+      service: name=nrpe state=restarted
+
